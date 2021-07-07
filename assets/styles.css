@@ -1,0 +1,123 @@
+/* General Styles */
+* {
+    margin: 0;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 26px;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 18px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+p, ul, li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* Header */
+header {
+    position: fixed;
+    width: 100%;
+    min-height: 80px;
+    background-color: #114B5F;
+    z-index: 10;
+    margin-top: -25px;
+}
+
+header h1 {
+    color: #FFF;
+    float: left;
+    display: inline-block;
+    padding: 2.5% 5% 0 5%;
+    margin: 0 1%;
+}
+
+header a {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+    float: right;
+    text-align: center;
+    padding: 2.5% 5% 0 5%;
+    text-decoration: none;
+    margin: 0 1%;
+    border-bottom: 10px solid #FFF;
+}
+
+header a:hover {
+    text-decoration: none;
+    border-bottom: 0px solid #FFF;
+    margin-top: 0;
+}
+
+/* Main */
+main {
+    position: relative;
+    top: 120px;
+    width: 100%;
+}
+
+main section {
+    margin: 0 10%;
+}
+
+main section h2 {
+    margin: 25px 0 10px 0;
+}
+
+main .box {
+    padding: 50px 0;
+    width: 32%;
+    display: inline-block;
+    text-align: center;
+}
+
+#blue {
+    background-color: #114B5F;
+    color: #FFF;
+}
+
+#darkgreen {
+    background-color: #1A936F;
+    color: #FFF;
+}
+
+#lightgreen {
+    background-color: #88d498;
+    color: #000;
+}
+
+p .alt {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 .alt {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    margin: 10px auto;
+    text-align: center;
+}
